@@ -3,9 +3,363 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!------------------------------- Google Fonts ------------------------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--------------------------------Font Awesome-------------------------------------->
+    <script
+      src="https://kit.fontawesome.com/f2296357eb.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ------------------------------Bootstrap---------------------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <!----------------------------------- CSS------------------------------------------->
+    <link rel="stylesheet" href="src/styles.css" />
+
     <title>Poetsen en Praten</title>
   </head>
+
   <body>
-    <h1>Welcome to Poetsen en Praten</h1>
+    <section class="navigation">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+              <h1 class="navbar-brand">
+                <span class="large-p">P</span>OETSEN EN
+                <span class="large-p">P</span>RATEN
+              </h1>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">Over Mij</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Werkzaamheden</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#costs">Tarieven</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#courses"
+                      >Cursussen/Opleidingen</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#reviews">Klanten Zeggen</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+
+    <!----------------------------------------About------------------------------------->
+    <section class="dark-section" id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 about-img-div">
+            <img
+              class="about-img"
+              src="src/images/annette2.jpg"
+              alt="Photo of Annette Dammer"
+            />
+          </div>
+          <div class="col-lg-8 col-md-6 about-text">
+            <h2>Over Mij</h2>
+            <p>
+              Graag wil ik mijzelf aan u voorstellen en iets over mijn
+              achtergrond en werkzaam leven vertellen. In 1960 ben ik in
+              Amsterdam geboren en heb daarna gewoond in verschillende plaatsen
+              in het westen om in 1994 in het oosten van het land te belanden,
+              waar ik het enorm goed naar mijn zin heb. Net zoals ik in
+              verschillende plaatsen heb gewoond heb ik ook verschillende banen
+              gehad, waarvan het werken in de zorgsector het grootste deel in
+              beslag heeft genomen, ruim twintig jaar. Halverwege 2019 ben ik
+              mijn eigen bedrijf gestart Poetsen en Praten wat gelijk heel goed
+              liep. Op deze manier heb ik veel meer tijd voor echt contact met
+              mensen dan dat ik had in de zorgverlening en ik haal hier veel
+              voldoening uit. De naam Poetsen en Praten omvat niet alles wat ik
+              doe, hiervoor kunt u meer lezen onder het kopje werkzaamheden.
+              Mijn grootste motivatie ligt in het wederzijdse goede contact en u
+              als klant blij en tevreden achter te laten en voor mijzelf blij en
+              tevreden weer naar huis te gaan, precies zoals je altijd zou
+              willen werken. Genieten doe ik van fijne contacten met mensen, de
+              natuur, de schoonheid van van alles, lezen, klassieke muziek,
+              wandelen, inrichten, en iets maken... Mijn werkgebied is in
+              Zutphen en Almen.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------------Services------------------------------------>
+    <section class="light-section" id="services">
+      <div class="container-fluid">
+        <div class="row service-row">
+          <div class="col-md-5 service service-text">
+            <h3>Poetsen</h3>
+            <p>
+              Heeft u hulp nodig bij het poetsen in uw huis, of wilt u het een
+              andere inrichting geven, of heeft u een opruim-uitzoek klus?
+            </p>
+          </div>
+          <div class="col-md-2 service-img-div">
+            <img class="service-img" src="src/images/cleaning.jpg" alt="#" />
+          </div>
+          <div class="col-md-5 service service-text">
+            <h3>Persoonlijke verzorging en begeleiding</h3>
+            <p>
+              Wordt het moeilijker of vermoeiender om u zelf te douchen en aan
+              te kleden, het beddengoed te verwisselen, of wilt u dat er iemand
+              bij u waakt in uw laatste levensdagen?
+            </p>
+          </div>
+        </div>
+        <div class="row service-row">
+          <div class="col-md-5 service service-text">
+            <h3>Praten</h3>
+            <p>
+              Heeft u behoefte aan een gesprek over iets in het bijzonder, of
+              wilt u gezellig samen koffie drinken en praten over van alles, of
+              onder het samen wandelen?
+            </p>
+          </div>
+          <div class="col-md-2 service-img-div">
+            <img class="service-img" src="src/images/talking.jpg" alt="#" />
+          </div>
+          <div class="col-md-5 service service-text">
+            <h3>Ondersteunen van mantelzorger</h3>
+            <p>
+              Bent u mantelzorger en wilt u de zorg voor uw naaste af en toe uit
+              handen geven of samen met iemand delen zodat u wat meer tijd voor
+              u zelf hebt?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----------------------------------------Costs-------------------------------------->
+    <section class="dark-section" id="costs">
+      <div class="container-fluid">
+        <h1>20€ per uur</h1>
+        <h4>contante betaling</h4>
+        <h4>werkblokken van minstens drie uur</h4>
+      </div>
+    </section>
+
+    <!----------------------------------------Courses------------------------------------->
+    <section class="light-section" id="courses">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 course">
+            <h3 class="course-title">Cursussen</h3>
+            <ul>
+              <li>Stervensbegeleiding</li>
+              <li>Counseling</li>
+              <li>Starten eigen zaak</li>
+              <li>Hand en voetmassage</li>
+              <li>Ontspanningsmassage</li>
+              <li>Voedingsleer</li>
+            </ul>
+          </div>
+          <div class="col-md-4 course">
+            <h3 class="course-title">Opleidingen</h3>
+            <ul>
+              <li>Doktersassistente</li>
+              <li>Ziekenverzorgende</li>
+            </ul>
+          </div>
+          <div class="col-md-4 course">
+            <h3 class="course-title">Werkervaring</h3>
+            <ul>
+              <li>Huisartsenpraktijk</li>
+              <li>Verzorgingstehuizen</li>
+              <li>Thuiszorg, huishoudelijke hulp</li>
+              <li>Eigen winkel met brocante spullen</li>
+              <li>
+                Verpleegtehuizen, o.a de Hoge Weide en Tusselerhof in Lochem
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------------------------Reviews------------------------------------>
+    <section class="dark-section" id="reviews">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide center-reviews"
+        data-interval="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid carousel-div">
+            <h2 class="review-text short-review">
+              "Opeens had ik hulp nodig. Annette kwam en zij WAS er. Annette
+              heeft de kwaliteit om te zien wat nodig is."
+            </h2>
+            <br />
+            <br />
+            <em>- Liesbeth</em>
+          </div>
+          <div class="carousel-item container-fluid carousel-div">
+            <h2 class="review-text long-review">
+              "Na een oproep tot hulp d.m.v. een briefje bij onze Superrr in
+              maart 2018 meldde Annette zich. Inmiddels menen we haar goed te
+              kennen. Zeer integer, betrouwbaar, flexibel, eerlijk, bescheiden,
+              invoelend, hard werkend, ze luistert met hart en ziel, meedenkend
+              zonder betweterigheid, heel dienstbaar zonder dat ze over zich
+              laat lopen, doortastend en voortvarend zonder over andermans
+              grenzen te gaan. Wat haar in vertrouwen ter ore komt, zal niet op
+              straat komen te liggen. Een hulp in de beste zin van het woord:
+              namelijk iemand die je je eigen autonomie niet afneemt, maar juist
+              gunt en ondersteunt. Kortom een mens om van te houden en om zuinig
+              op te zijn. Wij worden in ieder geval geweldig door haar geholpen
+              en zijn heel wijs met haar."
+            </h2>
+            <img
+              class="review-img"
+              src="src/images/client2.jpg"
+              alt="Customer Photo, Gerard en Henny"
+            />
+            <em>- Gerard en Henny</em>
+          </div>
+          <div class="carousel-item container-fluid carousel-div">
+            <br />
+
+            <h2 class="review-text">
+              "Als Annette komt poetsen hebben we altijd een gezellige ochtend
+              waarin we ook heerlijk samen koffie drinken en uitgebreid praten
+              over allerlei onderwerpen. We zeggen eerlijk wat we van de dingen
+              vinden, vaak heel serieus maar ook met humor."
+            </h2>
+            <br />
+            <br />
+            <img
+              class="review-img"
+              src="src/images/client1.jpg"
+              alt="Customer Photo, Jan"
+            />
+
+            <em>- Jan</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!----------------------------------------Contact------------------------------------->
+    <section class="light-section" id="contact">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-5 col-md-6 contact-img-div">
+            <img
+              class="contact-img"
+              src="src/images/annette1.jpg"
+              alt="Photo of Annette Dammer"
+            />
+          </div>
+          <div class="col-lg-7 col-md-6 contact-text">
+            <h2>Spreekt dit u aan?</h2>
+            <p>
+              Dan kunt u contact met mij opnemen voor een kennismakingsafspraak
+              of voor meer informatie.
+            </p>
+            <p>
+              <i class="fas fa-phone-alt"></i>
+              <a class="contact-link" href="tel:0651014242">06-51014242</a>
+            </p>
+            <p>
+              <i class="fas fa-envelope"></i>
+              <a class="contact-link" href="mailto:annette.dammer@hotmail.com"
+                >annette.dammer@hotmail.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------------------------Footer-------------------------------------->
+    <section>
+      <div class="container-fluid footer">
+        <h5>© Copyright 2021 Poetsen en Praten</h5>
+        <!-- <h5>
+          Created by
+          <a href="#"> NL Web Development </a>
+        </h5> -->
+      </div>
+    </section>
+
+    <!------------------------------------------JS---------------------------------------->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
