@@ -34,12 +34,11 @@ hr {
   margin: 0;
 }
 
-#contact:before {
+a.anchor {
   display: block;
-  height: 109px; /* equal to the header height */
-  margin-top: -109px; /* negative margin equal to the header height */
+  position: relative;
+  top: -153px;
   visibility: hidden;
-  content: "";
 }
 
 /* ----------------------------------Colored Sections-------------------------------- */
@@ -157,16 +156,16 @@ hr {
 }
 
 /* --------------------------------------Costs-------------------------------------- */
-#costs {
+.costs {
   text-align: center;
 }
 
-#costs h1 {
+.costs h1 {
   font-size: 2.5rem;
 }
 
 /* -------------------------------------Courses------------------------------------- */
-#courses {
+.courses {
   position: relative;
   text-align: left;
 }
@@ -189,7 +188,7 @@ hr {
 }
 
 /* -------------------------------------Reviews-------------------------------------- */
-#reviews {
+.reviews-section {
   padding: 1% 10%;
   text-align: center;
 }
@@ -217,7 +216,7 @@ hr {
 }
 
 /* -------------------------------------Contact-------------------------------------- */
-#contact {
+.contact {
   padding: 3% 6% 3%;
 }
 
@@ -284,6 +283,12 @@ hr {
     padding: 5%;
   }
 
+  a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+  }
   /* ---------------------------------------About---------------------------------------- */
   .about-img {
     position: static;
@@ -310,13 +315,13 @@ hr {
   }
 
   /* ----------------------------------------Courses------------------------------------- */
-  #courses {
+  .courses {
     position: relative;
     /* text-align: center; */
   }
 
   /* ---------------------------------------Contact--------------------------------------- */
-  #contact {
+  .contact {
     text-align: center;
   }
 
@@ -366,6 +371,12 @@ hr {
     font-size: 0.9rem;
   }
 
+  a.anchor {
+    display: block;
+    position: relative;
+    top: -122px;
+    visibility: hidden;
+  }
   /* ---------------------------------------Services------------------------------------------ */
   .service {
     padding: 0 3%;
@@ -381,7 +392,7 @@ hr {
   }
 
   /* ----------------------------------------Reviews------------------------------------------ */
-  #reviews {
+  .reviews-section {
     padding: 0 5%;
   }
 
