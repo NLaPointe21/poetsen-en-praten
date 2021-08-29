@@ -43,7 +43,9 @@ a.anchor {
 
 /* ----------------------------------Colored Sections-------------------------------- */
 .dark-section {
-  background-color: #185b86;
+  background-color: #2c665e;
+  color:#e6e6e6;
+  text-align: center;
 }
 
 .light-section {
@@ -107,7 +109,7 @@ a.anchor {
   position: relative;
   width: 275px;
 }
-
+ 
 .about-text {
   margin: auto 0;
   text-align: left;
